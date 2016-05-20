@@ -94,7 +94,7 @@ sol_comms_init(void)
     if (ret != 0)
         goto netctl_error;
 
-     return 0;
+    return 0;
 
 netctl_error:
     sol_netctl_shutdown();
